@@ -1,0 +1,16 @@
+RECURSION 
+----------------------------------------------------------------------------------------------------------------------------------
+
+A method calling the itself n number of times.
+
+example: 
+
+static void main()
+{
+	System.out.println("Executing test()");
+	if(count<5)
+	{
+		count++;
+		test();
+	}
+}  

@@ -1,0 +1,14 @@
+
+
+BINARY		--------------->|-------------|<--------------	BINARY												
+							|			  |								
+							|			  |					
+OCTAL		--------------->|	DECIMAL   |<--------------	OCTAL									
+							|			  |										
+							|			  |								
+HEXADECIMAL	--------------->|_____________|<--------------	HEXA	
+
+WAP TO CONVERT OCTAL - HEXA 
+
+WAP TO CONVERT HEXA - BINARY 
+ 							

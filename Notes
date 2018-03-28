@@ -1,0 +1,12 @@
+unary operator
+++,-- 
+pre and post increment/decrement
+
+binary 
+	arithmatic op -> ip numbers, op numbers
+
+binary
+
+//08/17/2017
+
+use ternary operator if only 2-3 statements/conditions are involved else use "if-else"

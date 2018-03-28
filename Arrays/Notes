@@ -1,0 +1,140 @@
+ARRAY 
+------------------------------------------------------------------------------------------------------
+WHAT IS IT???
+----------------
+ 	- collection of homogeneous elements
+ 	- Fixed size 
+ 	- Index based
+ 	- it is an Object in java
+
+CREATION 
+------------------------------------------------------------------------------------------------------
+	
+	datatype []arname
+	
+	//creating array object 
+	
+	arname = new datatype[int size];
+	
+	//initialize 
+	arname[index] = value;
+
+	//utilization 
+	S.O.P(arname[index]);
+
+
+-------------------------------------ArrayIntro.java-------------------------------------------------
+
+	TYPE 1
+	--------------------------------------------
+		Array Size is ALWAYS an INTEGER 
+
+		ar = new int[5]; < --------- is it mandatory to give size here? 
+
+		YEAH , YES IT IS ! COMPITE TIME ERROR, SYNTAX PROBLEM 
+
+	TYPE 2	
+	--------------------------------------------
+		int a = 5
+
+		ar = new int[a]; <---- possible
+
+	TYPE 3
+	--------------------------------------------
+
+		char a = 'A';
+		ar = new int[a]; <---- No problem, here array size would be 65 
+								auto type casting
+	
+	TYPE 4
+	--------------------------------------------
+
+		ar = new int[-2];
+
+		NO Compile Time error
+		Just an Runtime Exception -> java.lang.NegativeArraySizeException
+
+	TYPE 5	
+	--------------------------------------------
+	
+		//WITHOUT NEW OPERATOR
+		int[] ar = {10,4,2};
+
+	TYPE 6
+	--------------------------------------------
+		
+		//ANOTHER WAY 
+		int[] ar = new ar[]{10,5,2};
+
+------------------------------------------------------------------------------------------------------------------
+ARRAY FOR NON-PRIMITIVES
+------------------------------------------------------------------------------------------------------------------
+
+String ar[] = new String[3];
+
+ar[0] = "java";
+ar[1] = "sql";
+ar[2] = "j2ee";
+
+String ar[] = new String[3];
+
+It is a String array 
+
+->	Should we use length() or length ? 
+ANs:
+	length
+
+	for(int i =0 ; i<ar.length ; i++)
+	{
+		print(ar[i]);
+	}
+
+Have u seen "String ar[]" somewhere? 
+	main function 
+
+Can there be an input of array in java? 
+	Yes
+
+---------------------------------------------------GO TO ArrayInputString.java-------------------------------------
+
+	We can create an array of size 0 in java
+
+	during execution
+
+	PARSE a string during the compilation in the command line
+
+	java Program4 java sql j2ee  < --------- THis concept is called Command line arguments 
+
+	the string passed above will be passed to the main function and will be stored in "String[] args" 
+
+---------->
+	if i use Eclipse . What then?
+---------->
+
+	The run button, comes with a down arrow button with it, click it And click on Run configurations 
+
+	go to Arguments and pass the Arguments in the empty box 
+
+
+--------------------------------------------------------go to ArrayCommandLine.java-------------------------------------
+
+PRETTY SELF EXPAINATORY 
+
+--------------------------------------------------------go to SumofElements.java   -------------------------------------
+
+PRETTY SELF EXPAINATORY 
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+Write a program to calculate the sum of even elements and odd elements present in the given array 
+
+-------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------FirstMax.java------------------------------------------------------------
+
+
+
+
+
+
